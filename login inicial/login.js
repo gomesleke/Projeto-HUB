@@ -1,10 +1,6 @@
 
-function imprimirTexto(tag, texto) {
-    let imprimir = document.querySelector(tag);
-    imprimir.innerHTML = texto;
-}
-
-imprimirTexto('h2', 'Acesso de Usuário');
+let imprimir = document.querySelector('h2');
+imprimir.innerHTML = 'Acesso de Usuário';
 
 function verifica(){
 
